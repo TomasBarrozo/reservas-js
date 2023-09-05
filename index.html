@@ -18,10 +18,21 @@
         <input type="date" id="fecha">
     </div>
 
+    <div>
+        <label for="habitacion">Tipo de habitación:</label>
+        <select id="habitacion">
+            <option value="individual">Individual</option>
+            <option value="doble">Doble</option>
+            <option value="triple">Triple</option>
+        </select>
+    </div>
+
     <button id="reservar">Reservar</button>
 
     <h2>Reservas Realizadas:</h2>
     <ul id="listaReservas"></ul>
+    <!-- Esto va a mostrar el error -->
+    <div id="mensajeError" style="color: red;"></div> 
 
     <script src="main.js"></script>
 </body>
